@@ -1,0 +1,280 @@
+html{
+	scroll-behavior:smooth;	
+}
+	body {
+	background-image: url("img/universe.jpg");
+	background-size: cover;
+}
+
+.modelomenu {
+	background-color: black;
+	color: #2BDEFD;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+
+a {
+	color: #2BDEFD ;
+	margin: 0px 50px 50px 0px;
+	padding: 5px 5px 5px 5px;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	text-decoration: none;
+	}
+
+a:link {
+	color:#2BDEFD
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+a:active {
+	color: white;
+
+}
+
+.direcionamento {
+	color: #fff ;
+	margin: 0px 50px 50px 0px;
+	padding: 5px 5px 5px 5px;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #808080;
+	text-decoration: none;
+}
+
+.logomeuaprendizado {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 400px;
+	border-radius:0px 0px 0px 0px;
+}
+
+.menu {
+	background-color:black;
+	width: 1200px;
+	height: 35px;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	background-image: linear-gradient( to , black, #01080E, #9CDEEE);
+	border-radius:0px 0px 10px 10px;
+}
+
+
+.tabela {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	padding: -15px;
+}
+
+video {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	border-radius:10px 10px 10px 10px;
+	opacity:0.9;
+	z-index:1;
+}
+
+video:hover {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	border-radius:10px 10px 10px 10px;
+	z-index:1;
+}	
+
+.aula {
+	background-color: black;
+	width: 1200px;
+	height: 30px;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	background-image: linear-gradient( to , black, #01080E, #9CDEEE);
+	border-radius:0px;
+}
+
+.palco {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	border-radius: 0px 0px 10px 10px ;
+	background-color: white;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.palco1 {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	border-radius: 0px 0px 0px 0px ;
+	background-color: black;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.palco2 {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	border-radius: 10px 10px 10px 10px ;
+	background-color: black;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+
+.palcoprova {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	border-radius: 0px 0px 10px 10px ;
+	background-color: white;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.palco01 {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	border-radius: 10px 10px 10px 10px ;
+	background-color: white;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+.maiscursos {
+	background-color:#E0EDFA;
+	color: black;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.maiscursos1 {
+	background-color:#000;
+	color: black;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+figcaption {
+	color: white;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+}
+
+.imgrodape {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 120px;
+	border-radius:10px 10px 10px 10px;
+}
+
+.imgrodapec {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 200px;
+	border-radius:10px 10px 10px 10px;
+	transition: transform 500ms, box-shadow 400ms;
+	
+}
+
+.imgrodapec:hover {
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 200px;
+	border-radius:10px 10px 10px 10px;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+	transform: translateY(-20px) translateX(20px);
+	
+}
+
+label	{
+
+	color:white;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+}
+
+.formulario{
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	padding: -15px;
+	background-color: black;
+	border-radius: 0px 	0px 10px 10px;
+	opacity: 0.95;
+
+}
+
+.preencha__formulario {
+	background-color: black;
+	color: #2BDEFD;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	border-radius: 10px 10px 0px 	0px;
+	opacity: 0.95;
+}
+
+.localizacao_1 {
+	background-color: white;
+	color: black;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	border-radius: 10px 10px 0px 0px;
+	opacity: 0.95;
+}
+.localizacao_2 {
+	background-color: white;
+	color: #2BDEFD;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+	margin: auto;
+	display: flex;
+	justify-content:center;
+	width: 1200px;
+	border-radius: 0px 0px 10px 10px;
+	opacity: 0.95;
+}
+legend{
+	color: white;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+]}
+
+.tituloform {
+	color: white;
+	font: 15px windoscomand, Arial, Tahoma, Sans-serif;
+}

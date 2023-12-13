@@ -1,0 +1,279 @@
+<!-- Atividade PW1 - Isaac de Melo Rocha RM.21404 - Turma B-->
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8"/>
+<title id="forms">Formulário</title>
+<link rel="shortcut icon" type="img/ico" href="img/ico.ico"/> 
+<link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+
+<body translate="no">
+</br>
+ 
+<header>
+<div class="modelomenu">
+<img class="logomeuaprendizado" src="img/logomeuaprendizado.png" alt="logo_meuaprendizado" title="logo"></img>
+</div>
+
+<div class="menu">
+<div class="tabela">
+
+<tr>
+<td id="home"><a href="index.html">Início</a></td> 
+<td><a href="#maiscursos">Nossos cursos</a></td>
+<td><a href="form.html">Matricule-se</a></td>
+<td><a href="english.html">Versão em Inglês</a></td> 
+<td><a href="sobre.html">Sobre o desenvolvedor</a></td>
+</tr>
+
+</div>
+</div>
+</header>
+<div>
+</br>
+<div class="preencha__formulario" id="preencha__formulario">
+<h3>Faça agora a sua matrícula e comece a estudar agora</h3>
+</div>
+<div class="formulario" >
+
+    <form action="#maiscursos" method="post">
+    </br>
+        <fieldset class="tituloform">
+        <legend>Queremos conhecer você</legend>
+        
+        <label title="Qualeoseunome" 
+               for="nome">Qual é o seu nome</label>
+        
+        <input id = "nome" name = "seu-nome"
+               type = "text" size="50"
+               maxlength="10" 
+               placeholder="Digite seu nome aqui" 
+              required="required"/>
+        
+        <br /> <br/> 
+        
+        <fieldset>
+        <legend>Crie agora o seu acesso</legend>
+        
+        <label for="email">Email</label> 
+        <input id= "email" type= "email" name = "seu-email"
+               placeholder="Digite o email aqui" 
+               size="35" maxlength="35" 
+               required="required"/>
+        <br>
+        <label for="senha">Senha</label> 
+                <input type = "password" 
+              name = "sua-senha1" 
+              id = "senha1"
+              placeholder="Qual a senha?"
+              size="15" maxlength="12" 
+              required="required" />
+			   <br/>
+			   
+		<label for="confirma-senha">Confirme a sua senha</label> 
+                <input type = "password" 
+              name = "seu-senha2" 
+              id = "senha2"
+              placeholder="Qual a senha?"
+              size="15" maxlength="12" 
+              required="required" />
+			  
+        		<label for="telefone">Telefone/cel:</label> 
+                <input type = "tel" 
+              name = "seu-telefone" 
+              id = "telefone"
+              placeholder="(xx) xxxxx-xxxx"
+              size="15" maxlength="12" 
+              required="required" />
+        </fieldset>
+        
+        <br/>
+        
+        <label for="interesses">Quais assuntos você quer aprender?</label>
+        <br/>
+                <textarea cols="75" id="interesses" required="required"
+                rows="10" name="interesses" 
+                maxlength="500"  wrap="on" style="resize:none"
+                placeholder="Digite aqui os assuntos que você quer aprender...">
+                </textarea>
+        
+        <br/> 
+        <br/> 
+        
+        <input type="checkbox" id="aceite-email" 
+               name="aceite" value="1"
+              style="margin-left:25px;" 	   /> 
+        
+        <label for="aceite1">Quero receber as novidades por e-mail</label>
+        
+        <br/>
+			
+        
+        <input type="checkbox" id="aceite-sms" 
+               name="aceite" value="1"
+              style="margin-left:25px;" 	   /> 
+        
+        <label for="aceite2">Quero receber as novidades por SMS</label>
+        
+        <br/>
+            
+		
+		<br />
+        
+        <p class="tituloform"> Agora selecione o seu nível de conhecimento de Inglês:</p>
+		
+        <input type="radio" id="basico" 
+               name="escolha1" value="escolha1"
+              style="margin-left:25px;" 	   /> 
+       
+        <label for="aceite">Básico</label>
+        
+        <br/>
+		
+        <input type="radio" id="escolha2" 
+               name="escolha1" value="intermediario"
+              style="margin-left:25px;" 	   /> 
+        
+        <label for="aceite">Intermediário</label>
+        
+        <br/>
+		
+		<input type="radio" id="escolha3" 
+               name="escolha1" value="avancado"
+              style="margin-left:25px;" 	   /> 
+        
+        <label for="aceite">Avançado</label>
+        
+        <br/>
+       
+        
+        <br/> <br/>
+	
+		
+        
+        <br/> <br/>
+        <label for ="escolha"> Escolha uma opção para concorrer uma bolsa de estudos:</label>
+        
+        <select id="escolha" name="escolha" required="required">
+        <option value="nao-selecionado">Selecione...</option> 
+        <option value="opcao1">Java</option>
+        <option value="OPcao2">.NET</option>
+        <option value="opcao3">Phyton</option>
+		 <option value="opcao1">JavaScript</option>
+        <option value="OPcao2">Metodologia Ágil</option>
+        <option value="opcao3">HTML5 e CSS3</option>
+		<option value="opcao3">Banco de Dados</option>
+		<option value="opcao3">Data Science</option>
+        
+        </select>
+        <br /> <br/>
+        
+        <br/><br/>
+        
+        
+        <input type = "submit" 
+               name = "enviar" value="Enviar" action="#forms"/>
+        
+        <input type = "reset" 
+               name = "apagar" value="Apagar" src="#forms"/>
+       </br>
+	   </fieldset>
+	   </br>
+	   </br>
+        </form>
+    </br>
+
+</div>
+  </br>
+<div class="localizacao_1" id="preencha__formulario">
+<h3>Veja a nossa localização</h3>
+</div> 
+<div class="localizacao_2" id="preencha__formulario">
+<h3><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1956973746524!2d-46.65845682472582!3d-23.56141397879977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ceb1eb771f%3A0xe904f6a669744da1!2sMuseu%20de%20Arte%20de%20S%C3%A3o%20Paulo%20Assis%20Chateaubriand!5e0!3m2!1spt-BR!2sbr!4v1697147674524!5m2!1spt-BR!2sbr" width="1150" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h3>
+</div>
+
+</br>
+</br>
+</br>
+<footer>
+<div class="maiscursos " id="maiscursos">
+<h3>Já fez sua matricula? Então, escolha um dos cursos e comece a aprender sobre tecnologia.</h3>
+</div>
+<div class="tabela">
+<tr>
+<td>
+<figure>
+<a href="curso5.html"><img class="imgrodapec"src="img/curso5.jpg" alt="Java" title="Java" width="10px"></a>
+<figcaption>Java</figcaption>
+</figure>
+</td>
+</tr>
+<tr>
+<td>
+<figure>
+    <a href="curso6.html"><img class="imgrodapec"src="img/curso6.jpg" alt=".NET" title=".NET" width="10px"></a>
+<figcaption>.NET</figcaption>
+</figure>
+</td>
+</tr>
+</tr>
+<tr>
+<td>
+<figure>
+    <a href="curso7.html"><img class="imgrodapec"src="img/curso7.jpg" alt="PHYTON" title=".PHYTON" width="10px"></a>
+<figcaption>PHYTON</figcaption>
+</figure>
+</td>
+</tr>
+
+<tr>
+    <td>
+    <figure>
+        <a href="curso8.html"><img class="imgrodapec"src="img/curso8.jpg" alt="Javascript" title="Javascript" width="10px"></a>
+    <figcaption>Javascript</figcaption>
+    </figure>
+    </td>
+    </tr>
+</div>
+
+<div class="tabela">
+<tr>
+<td>
+<figure>
+<a href="curso1.html"><img class="imgrodapec"src="img/curso1.jpg" alt="Metodologia Ágil" title="Metodologia Ágil" width="10px"></a>
+<figcaption>Metodologia Ágil</figcaption>
+</figure>
+</td>
+</tr>
+<tr>
+<td>
+<figure>
+    <a href="curso2.html"><img class="imgrodapec"src="img/curso2.jpg" alt="HTML5 CSS3" title="HTML5 CSS3" width="10px"></a>
+<figcaption>HTML5 CSS3</figcaption>
+</figure>
+</td>
+</tr>
+</tr>
+<tr>
+<td>
+<figure>
+    <a href="curso3.html"><img class="imgrodapec"src="img/curso3.jpg" alt="Banco de Dados" title="Banco de Dados" width="10px"></a>
+<figcaption>Banco de Dados</figcaption>
+</figure>
+</td>
+</tr>
+
+<tr>
+    <td>
+    <figure>
+        <a href="curso4.html"><img class="imgrodapec"src="img/curso4.jpg" alt="Data Science" title="Data Science" width="10px"></a>
+    <figcaption>Data Science</figcaption>
+    </figure>
+    </td>
+    </tr>
+</footer>
+</body>
+</html>
